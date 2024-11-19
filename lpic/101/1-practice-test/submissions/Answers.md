@@ -130,5 +130,5 @@ example
  mount -t <file-system>  <path/device-name>  <path/to/mount-point>/data
 
  **Bonus**:
- When the computer is turned on the system performs a POST (power on self test) and then the bootloader loads the kernal and initramfs from the  and the firmware loads the first stage of bootloader which the boot sector ( the first 512bits) and the second stage which loads the kernel the the initramfs is used as a temporary filesystem which is used for the initialization of the kernel      
+ When the computer is turned on the system performs a POST (power on self test) and then the bootloader loads the kernal and initramfs and the firmware loads the first stage of bootloader which the boot sector ( the first 512bits) and the second stage which loads the kernel the the initramfs is used as a temporary filesystem which is used for the initialization of the kernel      
     
